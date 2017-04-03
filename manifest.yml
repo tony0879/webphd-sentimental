@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: webphd-sentimental
+  host: webphd-sentimental
+  disk_quota: 1024M
+  services:
+  - Insights for Twitter-3u
